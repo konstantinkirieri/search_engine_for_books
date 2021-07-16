@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    margin: 15px;
+}
+
+.img {
+    width: 150px;
+    height: 200px;
+    background: coral;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+.description {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 150px;
+}
+
+.title {
+    font-size: 13px;
+}
+
+.category {
+    font-size: 10px;
+}
+
+.authors {
+    font-size: 13px;
+}

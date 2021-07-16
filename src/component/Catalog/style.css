@@ -1,0 +1,32 @@
+.catalog {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.totalItems {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.circularProgress {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.plug {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
